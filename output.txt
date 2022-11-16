@@ -1,0 +1,75 @@
+
+
+\begin{itemize}
+	\item Zkouška: možnost složit zkoušku formou testu (5 příkladů, každý za 20 bodů - dovolený vlastní tahák na A5 jednostranný, asi jen ručně)
+	\item Čt 8.12. 9:15-10:45 písemný test (předchází tomu přednáška od 7:30-9:00, jejíž obsah není součástí zkoušky), na test mít kalkulačku, v posluchárně D (NB)
+	\item Čt 15.12. 7:30-10:45 výsledky + přednáška + ústní zkouška (také jako opravný termín pro ústní zkoušku)
+	\item oznámení výsledků čt 15.12., probíhá výuka k ústní zkoušce
+	\item Možnost složit písemně nebo ústně
+	\item Nosit kalkulačku s sebou
+	\item Garant VŠE: Filip Habarta
+\end{itemize}
+
+
+
+\begin{itemize}
+	\item Pojištění
+
+	\begin{itemize}
+		\item Nástroj finanční eliminace negativních nahodilostí (krytí jen čistých rizik)
+	\end{itemize}
+
+	\item opak čistých rizik jsou spekulativní rizika (např hazardní hry)
+	\item 2 aspekty pojišťovnictví;
+
+	\begin{itemize}
+		\item Etika – princip solidarity
+		\item Výdělek – prosperující pro investory
+	\end{itemize}
+
+	\item Pojistné riziko = možnost vzniku pojistné události
+\end{itemize}
+
+
+\begin{itemize}
+	\item Pojištěný přenese svá rizika (neúnosné následky na osobní úrovni) na pojistitele, který při dostatečně velkém souboru rizik podobného charakteru (pojistný kmen)
+	\item Pomocí inkasovaného pojistného je schopen rizika celkově zvládnout a učinit je předmětem výnosné komerční činnosti
+\end{itemize}
+
+
+\begin{itemize}
+	\item objektivní rizika – dané objektivními faktory – zřejmé při uzavírání smlouvy (věk, pohlaví, zdravotní stav, rizikovost profese, charakteristiky pojištěného předmětu, prostředí např záplavové oblasti)
+	\item Subjektivní rizika – dané subjektivními faktory – snaha zachovat pojištěný předmět v dobrém stavu – v opačném případě může jít o pojistný podvod
+	\item TODO%Morální riziko – pojištění nezavraňuje ____ činnosti
+	\item osobní rizika – riziko předčasné smrti, riziko zdravotního postižení, riziko dožití se vysokého věku (vyplácení penzí pojišťovnou)/riziko dlouhověkosti/riziko sociální nedostatečnosti
+	\item Živelná rizika – škody přímo způsobené živelnou událostí (nepřímá živelná škoda je něco jiného)
+	\item Dopravní rizika - riziko škod v souvislosti s dopravním prostředkem - takzvané kasko pojištění (pojištění dopravních prostředků) nebo v souvislosti s přepravovaným zbožím - kargo pojištění
+	\item Riziko odcizení a vandalství
+	\item Strojní rizika - chyba technologie a podobně
+	\item Rizika šomážní - riziko přerušení provozu v důsledku havárie/výpadku (např nepřímé živelné škody) NEBo riziko ušlého zisku (neschopnost plnit zakázky)
+	\item odpovědnostní rizika - rizika škod způsobených na zdraví, životě a majetku jiné osoby (fyzické nebo právnické) - anglicky third party liability - např povinné ručení na auto, pojištění na výkon povolání (např nemocnice, lékaři, pravici), riziko za výrobek (farmacie, potraviny)
+	\item Sociálně politická rizika - občanské války, embarga, znárodnění, stávky
+	\item obchodně finanční rizika - proměnlivé obchodní podmínky, úvěrové riziko (nebo také kreditní, nezaplacení dluhu)
+	\item Moderní rizika - jaderná, ekologická, AIDS, covid
+	\item Pojistně technické riziko pojistitele - transformace všech rizik výše na pojistitele - riziko nerovnováhy mezi přijatým pojistným a vyplacení pojistného plnění
+
+	\begin{itemize}
+		\item Lze odhadnout numericky
+		\item Příklad 12.1.
+		\item Nechť pojištění majetku nestane pojistná událost s pravděpodobností 0.01 (1 pojistná událost ze sta pojistných smluv/pojistek), přičemž pojistné plnění činí 1M Kč. Jaké je pojistně technické riziko pojistitele?
+		\item Řešení
+		\item M: počet pojistných smluv v pojistném kmeni
+		\item M: počet škodných události v pojistném kmeni (v kolika případech se vyplácí pojistka)
+		\item N: binomické rozdělení s parametry N, a 0.01
+		\item N = Bi(N, 0.01)
+		\item Binomické rozdělení - počet zdarů v N nezávislých pokusech s pravděpodobností zdaru (v našem případě pravděpodobnost zdaru 0.01)
+		\item Například:
+		\item TODO%Pravděpodobnosti 5 škod ve 100 smlouvách: (N nad 5ti) * (0.01^5) * (0.99 ^ (N-5))
+		\item E(n): střední počet škod
+
+		\begin{itemize}
+			\item TODO%0.01 * N
+			\item TODO%Například pro N=100 je E(n)=0.01*100=1
+\end{itemize}
+\end{itemize}
+\end{itemize}
