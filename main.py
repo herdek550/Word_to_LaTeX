@@ -4,18 +4,28 @@ Word -> uložit kopii (uložit jako) -> vybrat prostý text (.txt):
 -> Nemít zaškrtnuté "vložit konec řádků"
 -> Ukončení řádků CR/LF
 
+Use the 
+
+
 """
 
 import re # regex
 
 
 
-INPUT = "text2.txt"
 
-BULLETS = ["• ", "o ", "■ "]
+###########################################
+INPUT_FILE = "text.txt"
+OUTPUT_FILE = "output.txt"
+BULLETS = ["•", "o", "■"]
+###########################################
+
+
+
+
 MATH_SYMBOLS = ["*", "^", "_"]
 
-with open(INPUT, "r", encoding="utf-8") as file:
+with open(INPUT_FILE, "r", encoding="utf-8") as file:
     data = file.read()
 
 print(repr(data))
@@ -37,7 +47,7 @@ def bullets(_string, _current_level):
     
     _string_depth = None
     for _index, _bullet in enumerate(BULLETS):
-        _regex_pattern_s = r"^" + str(_bullet)
+        _regex_pattern_s = r"^" + str(_bullet) + r" "
         _regex_pattern_o = re.compile(_regex_pattern_s)
         if _regex_pattern_o.search(_string):
             print(f"TRUE - string depth {_index}")
@@ -125,5 +135,5 @@ for i in a:
 output = "\n".join(global_list)
 
 
-with open("output.txt", "w", encoding="utf-8") as file:
+with open(OUTPUT_FILE, "w", encoding="utf-8") as file:
     data = file.write(output)
